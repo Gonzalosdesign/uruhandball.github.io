@@ -1,0 +1,399 @@
+/*COLORES
+
+Azul: #03275A;
+Naranja: #FFA800;
+
+footer
+color #929394
+bold #D8D8D8
+background #2E2E2E
+  
+
+button
+background #525151
+
+button:hover
+background #424242
+*/
+
+/*---------------------
+--------GENERAL--------
+---------------------*/
+
+body {
+	font-family: 'Changa', sans-serif;
+  background-color: #A4A4A4;
+}
+
+h1 {
+  padding-top: 10px;
+	font-size: 24px;
+	color: #FFA800 ;
+}
+
+h4 {
+	color: #FFA800;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FFA800;
+}
+
+
+/*---------------------
+--------NAVBAR--------
+---------------------*/
+
+.navbar {
+	background-color: #03275A;
+	opacity: 0.9;
+}
+
+.navbar-nav li a:hover {
+      color: #FFA800 !important;
+}
+
+.dropdown-item:hover {
+      background-color: #03275A;
+  }
+
+/*---------------------
+--------CAROUSEL--------
+---------------------*/
+
+.carousel-inner img { 
+      width: 100%;
+      margin: auto;
+  }
+
+.carousel-indicators {
+	color: #FFA800 !important;
+  }
+
+
+/*---------------------
+--------ACTIONBTN--------
+---------------------*/
+
+.actionbtn {
+  background-color: #FFA800;
+  font-size: 48px;
+  width: auto;
+  position: fixed;
+  top: 250px;
+  right: 100px;
+}
+
+
+.actionbtn a {
+  color: #03275A;
+}
+
+.actionbtn a:hover{
+  color: white;
+}
+
+
+/*---------------------
+--------BACKGROUND--------
+---------------------*/
+
+.bg1 {
+  background: url(img/bg1.jpg) no-repeat center fixed; 
+  background-size: cover;
+}
+
+.bg2 {
+  background:url(img/bg2.jpg) no-repeat center fixed; 
+  background-size: cover;
+  
+}
+
+.bg3 {
+  background:url(img/bg3.jpg) no-repeat center fixed; 
+  background-size: cover;
+  color: white;
+}
+
+.bg4 {
+  background:url(img/bg4.jpg) no-repeat center fixed; 
+  background-size: cover;
+  color: white;
+}
+
+.bg5 {
+  background:url(img/bg5.jpg) no-repeat center fixed; 
+  background-size: cover;
+  color: white;
+}
+
+.bg6 {
+  background:url(img/bg6.jpg) no-repeat center fixed; 
+  background-size: cover;
+  color: white;
+  padding-top: 50px;
+}
+
+.bg6 li a {
+  color: white;
+  font-size: 20px;
+}
+
+.bg {
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.bg img {
+  width: 100%;
+  margin: 0;
+}
+
+.blue {
+  padding-top: 50px;
+  background: rgba(3, 39, 90, 0.6);
+}
+
+/*---------------------
+--------HEADER--------
+---------------------*/
+
+.gianttype {
+  font-size: 96px;
+  font-family: 'Changa', sans-serif;
+  font-weight: bold; 
+  margin-top: 100px;
+  color: #FFA800;
+}
+
+
+/*---------------------
+--------THUMBNAIL--------
+---------------------*/
+
+.thumbnail {
+  margin: auto;
+  font-size: 80%;
+  opacity: 0.9;
+  color: white;
+  background-color: #2E2E2E;
+  border: 1px solid black;
+  margin-bottom: 20px;
+}
+
+.thumbnail p{
+  padding-top: 10px;
+}
+
+.thumbnail:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #03275A;
+}
+
+.text {
+  color: #FFA800;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+/*---------------------
+--------BOXES--------
+---------------------*/
+
+.news {
+  color: white;
+  opacity: 0.9;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding: 20px;
+  background-color: #2E2E2E;
+  text-decoration: none;
+  border: 1px solid black;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.news h4 {
+  padding-top: 20px;
+}
+
+.news a img:hover {
+  -webkit-filter: sepia(100%);filter: sepia(100%);
+}
+
+.paper {
+  margin: 20px;
+  opacity: 0.8;
+  color: white;
+  background-color: #2E2E2E;
+  border: 1px solid black;
+  padding: 30px 20px 30px 20px;
+}
+
+.stream {
+  width: auto;
+  height: 100%;
+}
+
+.map {
+  width: 100%;
+  height: 700px;
+  padding-bottom: 80px;
+}
+
+.about {
+  margin-top: 200px;
+}
+
+.clubs {
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-bottom: 50px;
+}
+
+.clubs a{
+  color: white;
+  text-decoration: none;
+}
+
+.clubs a:hover {
+  color: #FFA800;
+}
+
+/*---------------------
+--------MARGIN--------
+---------------------*/
+
+.padding1 {
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+
+.margin1 {
+  margin-top: 50px;
+}
+
+
+/*---------------------
+--------FORM--------
+---------------------*/
+
+form p {
+  padding-top: 25px;
+}
+
+textarea {
+  width: 90%;
+  height: 300px;
+}
+
+/*---------------------
+--------FOOTER--------
+---------------------*/
+
+.footer {
+  font-size: 80%;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  opacity: 0.9;
+  color: #929394;
+  background-color: #2E2E2E;
+  box-shadow: 0px -5px 5px gray;
+  border-top: 1px solid black;
+  font-family: 'Open Sans', sans-serif;
+  }
+
+.footer p {
+  margin: auto;
+  width: 50%;
+}
+
+.footer a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: #929394;
+}
+
+.footer a:hover {
+  color: #FFA800;
+}
+
+.footer b{
+  font-variant: bold;
+  color: #D8D8D8;
+}
+
+.footer button {
+  display: block;
+  margin: auto;
+  background-color: #525151;
+}
+
+.footer button:hover {
+  background-color: #424242;
+}
+
+.disclaimer {
+  padding-top: 20px;
+}
+
+/*---------------------
+--------MEDIA QUERY--------
+---------------------*/
+
+@media (max-width: 800px) {
+  .gianttype {
+  font-size: 36px;
+}
+  .actionbtn {
+   position: relative;
+   top: 0;
+   left: 0;
+   margin: 20px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .header h4 {
+    font-size: 42px;
+  }
+  .gianttype {
+    font-size: 24px;
+  }
+  .carousel{
+      display: none; /* Esconder carousel si la pantalla es menor a 600 pixels de ancho */
+    }
+
+  .actionbtn {
+   position: relative;
+   top: 0;
+   left: 0;
+   margin: 20px;
+  }
+}
+
